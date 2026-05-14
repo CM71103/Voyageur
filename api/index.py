@@ -76,7 +76,7 @@ def save_memories(req: MemoriesRequest):
     return {"status": "ok"}
 
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 STATIC_DIR = os.path.join(BASE_DIR, "static")
 
 os.makedirs(STATIC_DIR, exist_ok=True)
