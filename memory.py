@@ -1,4 +1,5 @@
 import os
+os.environ['HOME'] = '/tmp'
 from mem0 import MemoryClient
 
 
